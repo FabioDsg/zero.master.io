@@ -1,0 +1,80 @@
+body {
+    background-image: url(cyber_building.jpg);
+    background-size: cover;
+}
+
+h2 {
+    color: rgb(255, 145, 0);
+    text-align: center;
+    
+    /* Add border */
+    border: 5px dashed purple;
+
+    /* Add pointer when mouse over text */
+    cursor: pointer;
+}
+
+p {
+    
+    text-align: center;
+    
+    /* Add border */
+    border: 5px dashed purple;
+
+    /* Add pointer when mouse over text */
+    cursor: pointer;
+}
+
+p {
+    color: rgb(255, 0, 170);
+    line-height: 20px;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 150%;
+    font-family: 'Poiret One', cursive;
+    
+}
+
+img {
+
+    float: left;
+}
+
+footer {
+    clear: both;
+    text-align: center;
+    color: azure;
+   
+   
+}
+
+
+
+li {
+    color: darkorchid;
+
+    /* Remove dots from list */
+    list-style: none;
+
+    /* Align side by side list */
+
+    display: inline;
+}
+
+/* Apply style by class */
+.webtext{
+    border: 5px dashed plum;
+}
+
+.active{
+    color: cadetblue;
+}
+
+/* Apply style by id */
+#div1{
+    background: rgba(209, 209, 223, 0.2);
+}
+
+#div2{
+    background: rgba(226, 235, 189, 0.2);
+}
